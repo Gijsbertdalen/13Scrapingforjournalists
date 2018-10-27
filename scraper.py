@@ -25,10 +25,8 @@ for i in range(10):
 
 import scraperwiki
 html = scraperwiki.scrape('https://www.nrc.nl/')
-randomnumber = 42
-print randomnumber
-randomnumber = randomnumber + 1
-print randomnumber
+somenumbers = ['1', '3', '5', '7', '11', '13', '17', '19', '23', '29']
+print somenumbers
 
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
