@@ -24,9 +24,9 @@ for i in range(10):
 # -----------------------------------------------------------------------------
 
 import scraperwiki
-def = scraperwiki.scrape('https://www.nrc.nl/')
-sausages = def
-print sausages
+html = scraperwiki.scrape('https://www.nrc.nl/')
+randomnumber = 42
+print randomnumber
 
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
