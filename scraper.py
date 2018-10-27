@@ -24,7 +24,6 @@ for i in range(10):
 # -----------------------------------------------------------------------------
 
 import scraperwiki
-html = scraperwiki.scrape('https://www.nrc.nl/')
 kabinetten = {
 		"Balkenende I" : 2002,
 		"Balkenende II" : 2003,
@@ -34,7 +33,7 @@ kabinetten = {
 		"Rutte II" : 2012,
 		"Rutte III" : 2017
 	}
-print kabinetten[3]
+print kabinetten
 
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
