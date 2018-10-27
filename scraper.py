@@ -31,7 +31,7 @@ kabinetten = {
 		"Balkenende III" : 2006,
 		"Balkenende IV" : 2007,
 		"Rutte I" : 2010,
-		"Rutte II" : 2012
+		"Rutte II" : 2012,
 		"Rutte III" : 2017
 	}
 print kabinetten[3]
