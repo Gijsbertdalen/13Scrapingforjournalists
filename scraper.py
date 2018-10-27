@@ -33,7 +33,7 @@ kabinetten = {
 		"Rutte II" : 2012,
 		"Rutte III" : 2017
 	}
-print kabinetten[2]
+print kabinetten["Balkenende IV"]
 
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
