@@ -11,8 +11,8 @@
 # try reopening this page in a different browser - Chrome or the latest Firefox.
 # -----------------------------------------------------------------------------
 
-for i in range(10):
-    print "Hello", i
+# for i in range(10):
+# print "Hello", i
 
 # -----------------------------------------------------------------------------
 # 2. Next, try scraping an actual web page and getting some raw HTML.
@@ -33,7 +33,7 @@ kabinetten = {
 		"Rutte II" : 2012,
 		"Rutte III" : 2017
 	}
-print kabinetten
+print kabinetten[2]
 
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
