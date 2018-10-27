@@ -26,7 +26,7 @@ for i in range(10):
 import scraperwiki
 html = scraperwiki.scrape('https://www.nrc.nl/')
 somenumbers = ['1', '3', '5', '7', '11', '13', '17', '19', '23', '29']
-print somenumbers
+print somenumbers[3]
 
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
