@@ -27,6 +27,8 @@ import scraperwiki
 html = scraperwiki.scrape('https://www.nrc.nl/')
 randomnumber = 42
 print randomnumber
+randomnumber = randomnumber + 1
+print randomnumber
 
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
